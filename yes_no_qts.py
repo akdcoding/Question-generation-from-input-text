@@ -11,7 +11,7 @@ from nltk.tokenize import word_tokenize
 jar =  r'C:\Users\Akshada\Downloads\stanford-postagger-2018-10-16\stanford-postagger.jar'
 model =  r'C:\Users\Akshada\Downloads\stanford-postagger-2018-10-16\models\english-left3words-distsim.tagger'
 pos_tagger = StanfordPOSTagger(model, jar, encoding='utf8')
-line = 'Joe waited for the train, but the train was late.'
+line = 'She has eaten the fruits.'
 text = pos_tagger.tag(word_tokenize(line))
 print(text)
 c = 0
