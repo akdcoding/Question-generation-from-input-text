@@ -12,7 +12,9 @@
 2. open command prompt
 3. set path for stanford corenlp folder
 4. run command
-    java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -annotators "tokenize,ssplit,pos,lemma,parse,sentiment" -port 9000 -timeout 30000
+
+java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -annotators "tokenize,ssplit,pos,lemma,parse,sentiment" -port 9000 -timeout 30000
+
  link: https://www.khalidalnajjar.com/setup-use-stanford-corenlp-server-python/
  
 #install requirements
