@@ -16,4 +16,5 @@
  link: https://www.khalidalnajjar.com/setup-use-stanford-corenlp-server-python/
  
 #install requirements
+
 pip install -r requirements.txt
