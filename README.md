@@ -15,4 +15,5 @@
     java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -annotators "tokenize,ssplit,pos,lemma,parse,sentiment" -port 9000 -timeout 30000
  link: https://www.khalidalnajjar.com/setup-use-stanford-corenlp-server-python/
  
-    
+#install requirements
+pip install -r requirements.txt
