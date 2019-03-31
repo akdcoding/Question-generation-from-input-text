@@ -1,0 +1,2 @@
+Pattern==3.6nltk==3.2.5
+textblob==0.15.0
